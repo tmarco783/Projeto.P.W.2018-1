@@ -3,5 +3,5 @@ Repositório destinado à gerencia do projeto para a disciplina de Programação
 # Integrantes do Grupo:
 Florentino dos Santos Filho,
 Marco Túlio Ribeiro Félix,
-Max Stival Rocha,
+Max Stival Rocha e
 Tiago Moura de Faria.
