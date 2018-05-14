@@ -1,7 +1,16 @@
 div.card{
-    width: 500px;
+    width: auto;
+    max-width: 500px;
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 40px; /* Added */
     margin-top: 40px;
+}
+
+@media (max-width: 538px)
+{
+    div.card{
+        max-width: 500px;
+        margin: 10px 10px; /* Added */
+    }
 }
