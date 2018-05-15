@@ -1,6 +1,7 @@
 div.card{
     width: auto;
     max-width: 920px;
+    min-width: 430px;
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 40px; /* Added */
