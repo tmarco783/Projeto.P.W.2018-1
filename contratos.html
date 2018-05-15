@@ -45,41 +45,147 @@
 <!--Inicio de Contratos-->
 <div class="container" style="margin-top:30px">
   <div class="row">
-    <div class="col-sm-4">
-      <h2>About Me</h2>
-      <h5>Photo of me:</h5>
+    <div class="col-sm-6">
+      <h2>Dados do Contrato</h2>
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Numero do contrato:</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Proprietário:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Inquilino:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+      </form>
+
+
+      <div class="container">
+        <h2>Dados das parcelas do contrato</h2>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Ordem</th>
+              <th>Período</th>
+              <th>Vencimento</th>
+              <th>Pagamento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>01</td>
+              <td>05/01 a 04/02/18</td>
+              <td>05/02/2018</td>
+              <td>03/02/18</td>
+            </tr>
+            <tr>
+              <td>02</td>
+              <td>05/02 a 04/03/18</td>
+              <td>05/03/2018</td>
+              <td>04/03/18</td>
+            </tr>
+            <tr>
+              <td>03</td>
+              <td>05/03 a 04/04/18</td>
+              <td>05/04/2018</td>
+              <td>04/04/18</td>
+            </tr>
+            <tr>
+              <td>04</td>
+              <td>05/04 a 04/05/18</td>
+              <td>05/05/2018</td>
+              <td>08/05/18</td>
+            </tr>
+            <tr>
+              <td>05</td>
+              <td>05/05 a 04/06/18</td>
+              <td>05/06/2018</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>06</td>
+              <td>05/06 a 04/07/18</td>
+              <td>05/07/2018</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>07</td>
+              <td>05/07 a 04/08/18</td>
+              <td>05/08/2018</td>
+              <td></td>
+            </tr>
+
+
+
+          </tbody>
+        </table>
+      </div>
       
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      <h3>Some Links</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
+
+   
+      
       <hr class="d-sm-none">
     </div>
-    <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+
+
+    <div class="col-sm-6">
+        <div class="container">
+            <h2>Composição da parcela - Ordem : 04</h2>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Descrição</th>
+                  <th>Referencia</th>
+                  <th>VAlor</th>
+                  <th>Base cálculo IR</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Aluguel mensal</td>
+                  <td></td>
+                  <td>1.500,00</td>
+                  <td>S</td>
+                </tr>
+                <tr>
+                    <td>Iptu</td>
+                    <td>1/4</td>
+                    <td>200,00</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Reparo encanamento</td>
+                    <td></td>
+                    <td>350,00</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Multa por atraso</td>
+                    <td></td>
+                    <td>75,50</td>
+                    <td>S</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td></td>
+                    <td>2.125,50</td>
+                    <td>S</td>
+                </tr>
+  
+
+    
+    
+    
+              </tbody>
+            </table>
+          </div>
+          
+
+
     </div>
   </div>
 </div>
